@@ -1,0 +1,1 @@
+dotnet "%~dp0..\CQRS.Codegen\bin\Debug\netcoreapp2.2\CQRS.Codegen.dll" "%~dp0DX.Contracts.csproj" "%~dp0GenerateContracts.g.cs"

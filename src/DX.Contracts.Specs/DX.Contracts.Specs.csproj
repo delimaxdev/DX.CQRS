@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <LangVersion>8.0</LangVersion>
+
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\CQRS.Specs\- Test Infrastructure -\FeatureBase.cs" Link="-\FeatureBase.cs" />
+    <Compile Include="..\CQRS\Utils\Check.cs" Link="-\Check.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="FluentAssertions.Json" Version="5.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="Xbehave" Version="2.4.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DX.Contracts\DX.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

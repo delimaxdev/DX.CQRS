@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CQRS.Codegen": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\projects\\Sandbox\\src\\Certification.Contracts\\Certification.Contracts.csproj D:\\projects\\Sandbox\\src\\Certification.Contracts\\GenerateContracts.g.cs"
+    }
+  }
+}
